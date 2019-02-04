@@ -1,0 +1,31 @@
+{
+  "name": "scan",
+  "description": "scan",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "^8.0.0",
+    "npm": "*"
+  },
+  "maintainers": [
+    {
+      "name": "infun3",
+      "web": "https://github.com/infun3"
+    }
+  ],
+  "dependencies": {
+    "express": "^4",
+    "get-json": "^1",
+    "ajax-request": "^1"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/infun3/scan"
+    }
+  ]
+}
